@@ -150,55 +150,16 @@ export default class CreateStory extends Component {
                 />
               </View>
 
-              {/* Campo de entrada para o título da história */}
-              <TextInput
-                style={styles.inputFont}
-                onChangeText={title => this.setState({ title })}
-                placeholder={"Título"}
-                placeholderTextColor="white"
-              />
+              {/* Campo de entrada para o título da história ATIVIDADE DO ALUNO*/} 
+              
 
-              {/* Campo de entrada para a descrição da história */}
-              <TextInput
-                style={[
-                  styles.inputFont,
-                  styles.inputFontExtra,
-                  styles.inputTextBig
-                ]}
-                onChangeText={description => this.setState({ description })}
-                placeholder={"Descrição"}
-                multiline={true}
-                numberOfLines={4}
-                placeholderTextColor="white"
-              />
+              {/* Campo de entrada para a descrição da história ATIVIDADE DO ALUNO*/}
+              
 
-              {/* Campo de entrada para o conteúdo da história */}
-              <TextInput
-                style={[
-                  styles.inputFont,
-                  styles.inputFontExtra,
-                  styles.inputTextBig
-                ]}
-                onChangeText={story => this.setState({ story })}
-                placeholder={"História"}
-                multiline={true}
-                numberOfLines={20}
-                placeholderTextColor="white"
-              />
-
-              {/* Campo de entrada para a moral da história */}
-              <TextInput
-                style={[
-                  styles.inputFont,
-                  styles.inputFontExtra,
-                  styles.inputTextBig
-                ]}
-                onChangeText={moral => this.setState({ moral })}
-                placeholder={"Moral da História"}
-                multiline={true}
-                numberOfLines={4}
-                placeholderTextColor="white"
-              />
+              {/* Campo de entrada para o conteúdo da história ATIVIDADE DO ALUNO*/}
+             
+              {/* Campo de entrada para a moral da história ATIVIDADE DO ALUNO*/}
+              
             </ScrollView>
           </View>
 
